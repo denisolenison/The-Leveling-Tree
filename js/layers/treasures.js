@@ -64,11 +64,11 @@ addLayer("t", {
     exponent() {
         let baseExp = new Decimal(0.5);
         
-        if (hasUpgrade('s', 24)) {
+        if (hasMilestone('s', 24)) {
             baseExp = baseExp.plus(0.025);
         }
 
-        if (hasUpgrade('s', 25)) {
+        if (hasMilestone('s', 25)) {
             baseExp = baseExp.plus(0.025);
         }
 
